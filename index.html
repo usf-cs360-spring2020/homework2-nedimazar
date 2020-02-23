@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- TODO: Change title -->
-    <title>Homework 2</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Load Bulma from CDN (consider saving it to repository instead) -->
-    <!-- https://bulma.io/ -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <!-- TODO: Change title -->
+  <title>Homework 2</title>
 
-    <!-- Load Font Awesome 5 (free) icons -->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  </head>
+  <!-- Load Bulma from CDN (consider saving it to repository instead) -->
+  <!-- https://bulma.io/ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 
-  <body>
+  <!-- Load Font Awesome 5 (free) icons -->
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
 
   <!-- Page header -->
   <!-- https://bulma.io/documentation/layout/hero/ -->
@@ -104,7 +105,8 @@
 
         <p>This would be an excellent place to describe what this page is for, what to find in different sections, describe any motivation or theme behind your visualizations, and so on.</p>
 
-        <p>You should not use this template unless you intend to customize it. Make it your own. Keep in mind this simple template is over 300 lines! You can see other examples of websites using Bulma at their showcase: <a href="https://bulma.io/expo/">bulma.io/expo/</a>.</p>
+        <p>You should not use this template unless you intend to customize it. Make it your own. Keep in mind this simple template is over 300 lines! You can see other examples of websites using Bulma at their showcase: <a
+            href="https://bulma.io/expo/">bulma.io/expo/</a>.</p>
 
         <h2 id="data">Data</h2>
 
@@ -137,116 +139,117 @@
 
 
 
-        <p>You can alternatively embed a Gist if you want. There is an "embed" button on <a href="https://gist.github.com/octocat/6cad326836d38bd3a7ae">the Gist page</a> and results in something like this:</p>
+          <p>You can alternatively embed a Gist if you want. There is an "embed" button on <a href="https://gist.github.com/octocat/6cad326836d38bd3a7ae">the Gist page</a> and results in something like this:</p>
 
 
-        <h2 id="visualizations">Parallel Line Chart in D3 v5</h2>
+          <h2 id="visualizations">Parallel Line Chart in D3 v5</h2>
 
-        <p>Ideally not everything would be on a single page like this example. Instead, you might want to put each section in its own webpage. You would need to carefully replicate the page template (with the header, navbar, and footer) and make the necessary updates. For example, you want the "About" navbar item to be considered active on an "About" web page.</p>
+          <p>Ideally not everything would be on a single page like this example. Instead, you might want to put each section in its own webpage. You would need to carefully replicate the page template (with the header, navbar, and footer) and make
+            the necessary updates. For example, you want the "About" navbar item to be considered active on an "About" web page.</p>
 
-        <p>For now this is just a demo. The buttons below do not go anywhere, but can be easily changed to link to different visualization pages.</p>
+          <p>For now this is just a demo. The buttons below do not go anywhere, but can be easily changed to link to different visualization pages.</p>
 
-        <svg id="mySVG" ></svg>
-        <!-- <script src="https://d3js.org/d3.v4.js"></script> -->
-        <script src="https://d3js.org/d3.v5.min.js"></script>
+          <svg id="mySVG"></svg>
+          <!-- <script src="https://d3js.org/d3.v4.js"></script> -->
+          <script src="https://d3js.org/d3.v5.min.js"></script>
 
-        <script type="text/javascript" src="drawParallelCoordinates.js"></script>
-
-
-        <h2 id="prototypes">Prototype</h2>
-        <img src="prototype.png" width="700"alt="ooh" >
+          <script type="text/javascript" src="drawParallelCoordinates.js"></script>
 
 
+          <h2 id="prototypes">Prototype</h2>
+          <img src="prototype.png" width="700" alt="ooh">
 
-        <h2 id="grade">Grade</h2>
-        <style>
-          table.grades tbody tr td:nth-child(1),
-          table.grades tbody tr td:nth-child(2) {
-            text-align: center;
-          }
-        </style>
 
-        <!-- TODO: Change or remove table -->
-        <!-- https://bulma.io/documentation/elements/table/ -->
-        <table class="table is-hoverable is-bordered grades">
-          <thead>
-            <tr>
-              <th>Letter</th>
-              <th>Done?</th>
-              <th>Description</th>
-            </tr>
-          </thead>
 
-          <tbody>
-            <tr>
-              <td>D</td>
-              <td><i class="has-text-danger fas fa-times-circle"></i></td>
-              <td>Prototype and implement a bubble plot.</td>
-            </tr>
+          <h2 id="grade">Grade</h2>
+          <style>
+            table.grades tbody tr td:nth-child(1),
+            table.grades tbody tr td:nth-child(2) {
+              text-align: center;
+            }
+          </style>
 
-            <tr>
-              <td>C</td>
-              <td><i class="has-text-danger fas fa-times-circle"></i></td>
-              <td>Prototype and implement a normalized heatmap.</td>
-            </tr>
+          <!-- TODO: Change or remove table -->
+          <!-- https://bulma.io/documentation/elements/table/ -->
+          <table class="table is-hoverable is-bordered grades">
+            <thead>
+              <tr>
+                <th>Letter</th>
+                <th>Done?</th>
+                <th>Description</th>
+              </tr>
+            </thead>
 
-            <tr>
-              <td>B</td>
-              <td><i class="has-text-danger fas fa-times-circle"></i></td>
-              <td>Prototype and implement a small multiples visualization -or- both a bubble plot and heatmap.</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>D</td>
+                <td><i class="has-text-danger fas fa-times-circle"></i></td>
+                <td>Prototype and implement a bubble plot.</td>
+              </tr>
 
-            <tr>
-              <td>A</td>
-              <td><i class="has-text-success fas fa-check-circle"></i></td>
-              <td>Prototype and implement a <strong>parallel coordinates visualization </strong> -or- a scatterplot matrix (choose one).</td>
-            </tr>
-          </tbody>
+              <tr>
+                <td>C</td>
+                <td><i class="has-text-danger fas fa-times-circle"></i></td>
+                <td>Prototype and implement a normalized heatmap.</td>
+              </tr>
 
-        </table>
+              <tr>
+                <td>B</td>
+                <td><i class="has-text-danger fas fa-times-circle"></i></td>
+                <td>Prototype and implement a small multiples visualization -or- both a bubble plot and heatmap.</td>
+              </tr>
 
-        <h2 id="about">About</h2>
+              <tr>
+                <td>A</td>
+                <td><i class="has-text-success fas fa-check-circle"></i></td>
+                <td>Prototype and implement a <strong>parallel coordinates visualization </strong> -or- a scatterplot matrix (choose one).</td>
+              </tr>
+            </tbody>
 
-        <!-- Profile box -->
-        <!-- https://bulma.io/documentation/layout/media-object/ -->
-        <article class="media">
-          <!-- TODO: Replace with profile photo -->
-          <figure class="media-left">
-            <p class="image is-128x128"><img class="is-rounded" src="profile.jpeg"></p>
-          </figure>
+          </table>
 
-          <div class="media-content">
-            <div class="content">
-              <!-- TODO: Replace with contact information -->
-              <p>
-                <strong>Nedim Azar</strong><br/>
-                CS Major, <a href="https://www.usfca.edu/">University of San Francisco</a><br/>
-                <em>Expected Graduation: 2021</em><br/>
-                <i class="fas fa-envelope"></i> <a href="mailto:nazar@dons.usfca.edu">nazar@dons.usfca.edu</a>
-              </p>
+          <h2 id="about">About</h2>
 
-              <!-- TODO: Replace with brief biography -->
-              <p>
-                Hey! I'm Ned, I like coding at a low level and playing the guitar.
-              </p>
+          <!-- Profile box -->
+          <!-- https://bulma.io/documentation/layout/media-object/ -->
+          <article class="media">
+            <!-- TODO: Replace with profile photo -->
+            <figure class="media-left">
+              <p class="image is-128x128"><img class="is-rounded" src="profile.jpeg"></p>
+            </figure>
 
-              <!-- TODO: Replace or remove tags -->
-              <!-- https://bulma.io/documentation/elements/tag/ -->
-              <div class="heading">Skills</div>
+            <div class="media-content">
+              <div class="content">
+                <!-- TODO: Replace with contact information -->
+                <p>
+                  <strong>Nedim Azar</strong><br />
+                  CS Major, <a href="https://www.usfca.edu/">University of San Francisco</a><br />
+                  <em>Expected Graduation: 2021</em><br />
+                  <i class="fas fa-envelope"></i> <a href="mailto:nazar@dons.usfca.edu">nazar@dons.usfca.edu</a>
+                </p>
 
-              <div class="tags">
-                <span class="tag">Python</span>
-                <span class="tag">C</span>
-                <span class="tag">Java</span>
-                <span class="tag">JavaScript</span>
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
-                <span class="tag">SVG</span>
+                <!-- TODO: Replace with brief biography -->
+                <p>
+                  Hey! I'm Ned, I like coding at a low level and playing the guitar.
+                </p>
+
+                <!-- TODO: Replace or remove tags -->
+                <!-- https://bulma.io/documentation/elements/tag/ -->
+                <div class="heading">Skills</div>
+
+                <div class="tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">C</span>
+                  <span class="tag">Java</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">SVG</span>
+                </div>
               </div>
             </div>
-          </div>
-        </article>
-        <!-- End profile box -->
+          </article>
+          <!-- End profile box -->
 
       </div>
       <!-- End page content -->
@@ -285,22 +288,22 @@
   <!-- Mobile menu responsiveness -->
   <!-- https://bulma.io/documentation/components/navbar/ -->
   <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    document.addEventListener('DOMContentLoaded', () => {
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-    if ($navbarBurgers.length > 0) {
-      $navbarBurgers.forEach( el => {
-        el.addEventListener('click', () => {
-          const target = el.dataset.target;
-          const $target = document.getElementById(target);
-          el.classList.toggle('is-active');
-          $target.classList.toggle('is-active');
+      if ($navbarBurgers.length > 0) {
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+          });
         });
-      });
-    }
-  });
+      }
+    });
   </script>
   <!-- End mobile menu responsiveness -->
-  </body>
+</body>
 
 </html>
